@@ -1,0 +1,162 @@
+.register-container {
+    display: flex;
+    height: 100vh;
+}
+
+.register-left-side {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+
+.register-left-side img {
+    width: 432.35px;
+    height: 432.35px;
+}
+
+.register-right-side {
+    background: rgb(252, 247, 225);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    padding-top: 80px;
+    flex: 1;
+    flex-direction: column;
+}
+
+.register-header .text {
+    color: orange;
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.register-header .underline {
+    width: 60px;
+    height: 3px;
+    background: orange;
+    margin: 0 auto 20px auto;
+    border-radius: 2px;
+}
+
+.register-inputs {
+    width: 400px;
+    height: 556px;
+    overflow-y: auto;
+}
+
+.register-inputs .input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 8px;
+}
+
+.gender {
+    display: flex;
+    gap: 200px;
+    margin: 15px 0;
+}
+
+.gender label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.gender input[type="radio"] {
+    margin-right: 8px;
+    /* khoảng cách giữa nút tròn và chữ */
+}
+
+.gender input[type="radio"] {
+    appearance: none;
+    /* bỏ radio mặc định */
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid gray;
+    /* viền xanh */
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.gender input[type="radio"]:checked {
+    background-color: orange;
+    /* khi chọn sẽ tô nền */
+    box-shadow: inset 0 0 0 4px white;
+    /* tạo vòng trắng bên trong */
+    border-color: orange;
+}
+
+.register-remember {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: 450;
+}
+
+.register-remember input[type="checkbox"] {
+    margin: 0;
+}
+
+button[type="register-submit"] {
+    width: 100%;
+    padding: 12px 0;
+    background-color: orange;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+/* Hiệu ứng khi hover */
+
+button[type="register-submit"]:hover {
+    background-color: darkorange;
+    transform: translateY(-2px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Hiệu ứng khi click giữ */
+
+button[type="register-submit"]:active {
+    transform: translateY(0);
+    box-shadow: none;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.register-link a {
+    font-size: 16px;
+    font-weight: 450;
+    color: orange;
+    text-decoration: underline;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}

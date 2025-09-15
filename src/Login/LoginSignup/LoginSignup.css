@@ -1,0 +1,136 @@
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+
+/* Bên trái hiển thị  */
+
+.left-side {
+    display: flex;
+    background: white;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-side img {
+    width: 432.35px;
+    height: 432.35px;
+}
+
+
+/* Bên phải hiển thị */
+
+.right-side {
+    background: rgb(252, 247, 225);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    flex: 1;
+}
+
+.header .text {
+    color: orange;
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.underline {
+    width: 60px;
+    height: 3px;
+    background: orange;
+    margin: 0 auto 20px auto;
+    border-radius: 2px;
+}
+
+
+/* Inputs */
+
+.inputs {
+    width: 100%;
+    max-width: 320px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+.input img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.input input {
+    border: none;
+    outline: none;
+    flex: 1;
+}
+
+
+/* Remember me + Forgot password */
+
+.remember {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 5px;
+}
+
+.forgot-password {
+    display: flex;
+    text-align: right;
+    font-size: 14px;
+    color: orange;
+    cursor: pointer;
+    margin-bottom: 5px;
+    margin-left: auto;
+    padding-top: 8px;
+    text-decoration: underline;
+}
+
+
+/* Button */
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: orange;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: rgb(227, 147, 0);
+}
+
+
+/* Link register */
+
+.register-link {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.register-link a {
+    color: orange;
+    text-decoration: underline;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
