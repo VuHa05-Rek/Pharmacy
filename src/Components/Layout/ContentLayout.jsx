@@ -1,6 +1,7 @@
 import React from 'react';
 import Sidebar from '../Sidebar/Sidebar';
 import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
 import {Outlet} from 'react-router-dom';
 import './ContentLayout.css';
 const ContentLayout = () =>{
@@ -13,6 +14,8 @@ const ContentLayout = () =>{
             <Outlet />  {/* Nội dung từng trang hiển thị ở đây */}
             </main>
         </div>
+        <Footer />
+
         </div>
   );
 };

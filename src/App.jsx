@@ -19,7 +19,7 @@ import Warranty from './Pages/Warranty/Warranty';
 import Privacy from './Pages/Privacy/Privacy';
 import Points from './Pages/MembershipPoints/MembershipPoints';
 //----------------------------------------------------
-
+import Footer from './Components/Footer/Footer';
 
 
 function App() {
