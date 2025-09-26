@@ -1,0 +1,10 @@
+.container-content {
+    margin: 0;
+    padding: 0;
+}
+
+.container-content img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}

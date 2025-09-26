@@ -1,12 +1,12 @@
 import React from 'react';
 
-import plus from '../../Pages/AssetsPages/plus.png';
-import chat from '../../Pages/AssetsPages/chat.png';
-import guarantee from '../../Pages/AssetsPages/guarantee.png';
-import freeshipping from '../../Pages/AssetsPages/free-shipping.png';
-import facebook from '../../Pages/AssetsPages/facebook.png';
-import gmail from '../../Pages/AssetsPages/gmail.png';
-import google from '../../Pages/AssetsPages/google.png';
+import plus from 'Pages/AssetsPages/plus.png';
+import chat from 'Pages/AssetsPages/chat.png';
+import guarantee from 'Pages/AssetsPages/guarantee.png';
+import freeshipping from 'Pages/AssetsPages/free-shipping.png';
+import facebook from 'Pages/AssetsPages/facebook.png';
+import gmail from 'Pages/AssetsPages/gmail.png';
+import google from 'Pages/AssetsPages/google.png';
 
 import { Link } from 'react-router-dom';
 import './Footer.css'

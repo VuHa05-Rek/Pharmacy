@@ -1,7 +1,8 @@
 import React from 'react';
 import Sidebar from '../Sidebar/Sidebar';
-import Header from '../Header/Header';
-import Footer from '../Footer/Footer';
+import Header from "../../Common/Header/Header";
+import Footer from "../../Common/Footer/Footer";
+
 import {Outlet} from 'react-router-dom';
 import './ContentLayout.css';
 const ContentLayout = () =>{
@@ -15,7 +16,6 @@ const ContentLayout = () =>{
             </main>
         </div>
         <Footer />
-
         </div>
   );
 };

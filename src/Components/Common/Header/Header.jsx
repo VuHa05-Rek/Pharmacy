@@ -1,14 +1,14 @@
 import React from 'react';
 
 
-import plus from '../../Pages/AssetsPages/plus.png';
-import documents from '../../Pages/AssetsPages/documents.png';
-import chat from '../../Pages/AssetsPages/chat.png';
-import freeshipping from '../../Pages/AssetsPages/free-shipping.png';
-import guarantee from '../../Pages/AssetsPages/guarantee.png';
-import shoppingcart from '../../Pages/AssetsPages/shopping-cart.png';
-import user from '../../Pages/AssetsPages/user.png';
-import search from '../../Pages/AssetsPages/search.png';
+import plus from 'Pages/AssetsPages/plus.png';
+import documents from 'Pages/AssetsPages/documents.png';
+import chat from 'Pages/AssetsPages/chat.png';
+import freeshipping from 'Pages/AssetsPages/free-shipping.png';
+import guarantee from 'Pages/AssetsPages/guarantee.png';
+import shoppingcart from 'Pages/AssetsPages/shopping-cart.png';
+import user from 'Pages/AssetsPages/user.png';
+import search from 'Pages/AssetsPages/search.png';
 
 import { Link } from 'react-router-dom';
 import './Header.css';

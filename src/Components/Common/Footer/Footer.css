@@ -53,7 +53,7 @@
 .info h1 {
     margin-bottom: 6px;
     font-size: 25px;
-    color: orange;
+    color: rgb(255, 128, 0);
 }
 
 .company-pharmacy h1 {
@@ -112,7 +112,7 @@
 }
 
 .connect {
-    margin-bottom: 160px;
+    margin-bottom: 172px;
     margin-right: 30px;
 }
 
